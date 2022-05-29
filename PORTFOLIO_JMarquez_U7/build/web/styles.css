@@ -1,0 +1,309 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* paleta 
+#072227
+#35858B
+#4FBDBA
+#AEFEFF
+*/
+
+body {
+    margin: 0% !important;
+}
+
+header {
+    z-index: 5;
+    width: 100%;
+    height: 40px;
+    background-color: #35858B;
+    position: fixed;
+}
+
+.nav {
+    width: 100%;
+    height: 100%;
+    background-color: #072227;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nombre {
+    width: 550px;
+    height: 70px;
+    padding: 100px 20px;
+    
+}
+
+.nav p {
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+    font-weight: bold;
+    color: #AEFEFF;
+}
+
+.lista-nav {
+    padding: 10px 20px;
+}
+
+.item-nav {
+    display: inline-block;
+    margin: 0px 5px;
+    font-size: 14px;
+    color: #4FBDBA;
+    background-color:#35858B;
+    border-radius: 10px;
+    padding: 6px 12px;
+}
+
+.item-nav:hover{
+    cursor: pointer;
+}
+
+.item-nav i {
+    margin: 0px 5px;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+}
+.fondoPerfil {
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 70%;
+    background-image: url(./assets/img/imgFondo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.info {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    size-adjust: cover;
+}
+
+.contenedor {
+    position: relative;
+    top: -150px;
+    height: 100px;
+    width: 30%;
+    padding-left: 30px;
+
+}
+.foto{
+    position: relative;
+    top: 0%;
+    height: 200px;
+    width: 200px;
+}
+
+.contenedor h2 {
+    font-style: italic;
+    font-size: 30px;
+}
+
+.contenedor title {
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.contenedor h3 {
+    margin: 5px;
+    font-weight: bold;
+}
+
+.contenedor h4 {
+    margin: 2px;
+    color: #868484;
+}
+
+.infoCont {
+    float: right;
+}
+
+.infoContI {
+    padding-left: 50px;
+    font-size: 10px;
+}
+
+.fotoiee {
+    position: relative;
+    height: 125px;
+    width: 250px;
+    right: 30px;
+    top: 30px;
+}
+
+.botones {
+    position: relative;
+    height: 30px;
+    width: 100%;
+    top: 20px;
+    left: 20px;
+}
+
+.botones .lista-nav {
+    margin-top: 1px;
+    padding: 0px;
+}
+
+#educacion {
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    background-color: #4FBDBA;
+    padding-right: 100px;
+    margin-bottom: -16px;
+
+}
+
+p {
+    color: rgb(12, 43, 33);
+}
+
+h2 {
+    color: rgb(12, 43, 33);
+    font-weight: 700;
+    font-style: italic;
+}
+
+h3 {
+    color: rgb(12, 43, 33);
+    margin-block-end: 10px;
+}
+
+.contE {
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 50%;
+    align-items: center;
+    padding-right: 100px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.contE  p{
+    flex: 80%
+}
+
+.contE  img{
+    flex: 10%;
+    padding: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.contE p {
+    padding-left: 10px;
+}
+
+.logoUniv {
+    height: 120px;
+    width: 120px;
+}
+
+#experiencia {
+    position: relative;
+    padding: 30px;
+    width: 100%;
+    background-color: #35858B;
+    padding-right: 100px;
+    margin-bottom: -16px;
+}
+
+#experiencia h2{
+    margin-top: 30px;
+}
+
+#servicios {
+    position: relative;
+    padding-top: 60px;
+    width: 100%;
+    height: calc( 100vh - 60px );
+}
+
+#cursos {
+    position: relative;
+    padding: 30px;
+    width: 100%;
+    background-color: #AEFEFF;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 15px;
+}
+
+
+
+.card {
+    background-color: #4FBDBA;
+    border-radius: 15px;
+    width: 70%;
+    height: 400px;
+    margin: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+.card > img{
+    width: 50%;
+    height: 220px;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.card > p {
+    margin: auto;
+    width: 80%;
+}
+
+.card2 {
+    position: relative;
+    padding-top: 30px;
+    margin-top: 40px;
+    margin-left:35px;
+}
+
+.card-img{
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+.list-group-item{
+    font-size:large;
+    padding: 5px;
+}
+
+.toast {
+    position: relative;
+    padding-top: 80px;
+    margin-top: 0px;
+    margin-left:35px;
+    font-size:xx-large;
+}
+
+.toast-heater{
+    padding: 60px;
+}
+.toast-body{
+    padding-top: 60px;
+}
+.minifoto{
+    position: relative;
+    top: 0%;
+    height: 30px;
+    width: 30px;
+    padding-right: 6px;
+}
+
+.bot {
+    background-color: #4FBDBA ; 
+}
+
